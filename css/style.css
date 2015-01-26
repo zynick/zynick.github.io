@@ -1,0 +1,33 @@
+
+body {
+    background: #DDDDDD;
+}
+
+/* background video */
+#bgv {
+    position:fixed;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height:100%;
+    margin:0;
+    z-index:-1;
+}
+
+.margin {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.content {
+    background: white;
+    opacity:0.8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.icon {
+    margin: 0px 5px;
+    height:32px;
+    width:32px;
+}
