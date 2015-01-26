@@ -1,0 +1,55 @@
+body {
+  background: #CCC;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  border-bottom: 2px solid;
+}
+
+.table {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 80px;
+}
+
+.content {
+  background: #EEE;
+  text-align: center;
+  padding: 30px; 10px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+}
+
+#name {
+  font-size: 42px;
+  padding: 10px 0px;
+}
+
+#desc {
+  font-size: 22px;
+  padding: 10px 0px;
+}
+
+#icons {
+  padding: 15px 0px 5px 0px;
+}
+
+.icon {
+  margin: 0px 10px;
+  height: 36px;
+  width: 36px;
+}
